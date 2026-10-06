@@ -1,19 +1,13 @@
 import './App.css';
 import Lebelnama from './componen/lebelnama';
+import Lebelalamat from './componen/lebelalamat';
 
 function App() {
   return (
     <div className="App">
-
-
      <h1>Profile</h1>
      <Lebelnama nama="handogol "/>
-     <Lebelnama nama="memet"/>
-     <Lebelnama nama="jai"/>
-
-     <p>Alamat : jalan pongka</p>
-
-     
+     <Lebelalamat alamat="jalan santo"/>
     </div>
   );
 }
